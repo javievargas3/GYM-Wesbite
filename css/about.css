@@ -1,0 +1,231 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.item-centre{
+    align-items: center;
+}
+
+.justify-centre{
+     justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.my-1{
+   margin-top: 13px;
+   margin-bottom:13px;
+}
+
+.my-2{
+    margin-top: 26px;
+    margin-bottom:26px;
+ }
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px ;
+}
+
+.text-blue{
+    color: rgb(244 167 99);
+}
+
+.btn{
+    padding: 5px 12px;
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 29px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244 167 99);
+    background: linear-gradient(to right, #f1f1f1 0%, hsl(29, 97%, 63%) 50%, #ffffff 50%, #ffffff 100%);
+      background-size: 200% 100%;
+      background-position: 100% 0;
+      transition: background-position 0.3s;
+}
+
+.btn:hover{
+    text-decoration: underline;
+    color: gray; 
+    background-position:0 0;
+}
+
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+.text-centre{
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+    width: 50%;
+    
+}
+
+.section1{
+   max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .img-size{
+    width: 455px;
+} 
+
+section2{
+    padding-left: 63px;
+    padding-left: 63px;
+}
+
+.section2 h1{
+    font-size: 2.5rem;
+}
+
+.section2 .my-2{
+    padding: 0 8vw;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif ;
+}
+
+.box{
+    padding: 8px 0;;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(231, 145, 70);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box h2{
+   font-size: 2rem; 
+}
+
+.high{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.box hr{
+    margin-top: 12px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 5px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}

@@ -1,0 +1,107 @@
+.left{
+    position:absolute;
+      top: 28px;
+      left:37px;
+      display: inline-block;
+  }
+  
+  .left img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 34px;
+    filter: invert(100%);
+  }
+
+  .left div{
+    font-size: 16px;
+    text-align: center;
+    line-height: 12px;
+  }
+
+  .mid{
+      display: block;
+      width: 41%;
+      margin: 19px auto;
+   border: 2px solid rgb(87, 20, 146);
+   border-radius: 46px;
+  }
+
+  .right{
+      position:absolute;
+      top: 28px;
+      right:37px;
+    display: inline-block;
+    
+  }
+  
+  .navbar{
+      display: inline-block;
+  }
+
+  .navbar li{
+      display: inline-block;
+      font-size: 20px;    
+  }
+
+  .navbar li a{
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+  }
+
+  .navbar li a:hover{
+      text-decoration: underline;
+      color: gray;
+  }
+
+  .btn{
+    font-family: 'Baloo Bhai 2', cursive;
+      margin: 0px 9px;
+      background-color: #35272400;
+      color: rgb(0, 0, 0);
+      padding: 4px 14px;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 29px;
+      font-size: 15px;
+      cursor: pointer;
+      background: linear-gradient(to right, #f1f1f1 0%, #f8b3b5 50%, #ffffff 50%, #ffffff 100%);
+      background-size: 200% 100%;
+      background-position: 100% 0;
+      transition: background-position 0.3s;
+  }
+  .btn:hover{
+      text-decoration: underline;
+      color: gray; 
+      background-position:0 0; 
+  }
+
+  .container {
+    border: 2px solid white;
+    margin: 93px auto;
+    padding: 15px;
+    width: 36%;
+    border-radius: 28px;
+  }
+
+    .form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 358px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 15px auto;
+    font-size: 16px;
+    border-radius: 29px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+    }
